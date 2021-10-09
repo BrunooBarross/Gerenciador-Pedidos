@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PrincipalController">
+   <children>
+      <Button fx:id="btcadastrarfornecedor" layoutX="54.0" layoutY="43.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="172.0" text="Cadastrar Fornecedor" />
+      <Button fx:id="btcadastrarcliente" layoutX="54.0" layoutY="200.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="172.0" text="Cadastrar Cliente" />
+      <Button fx:id="btcadastrarproduto" layoutX="54.0" layoutY="121.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="172.0" text="Cadastrar Produto" />
+      <Button fx:id="btcadastrarvenda" layoutX="54.0" layoutY="281.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="172.0" text="Realizar Venda" />
+      <Button fx:id="btlistfor" layoutX="467.0" layoutY="14.0" mnemonicParsing="false" text="Listar Fornecedores" />
+      <Button fx:id="btlistpro" layoutX="490.0" layoutY="47.0" mnemonicParsing="false" text="Listar Produtos" />
+      <Button fx:id="btlistcli" layoutX="497.0" layoutY="78.0" mnemonicParsing="false" text="Listar Clientes" />
+      <Button fx:id="btsair" layoutX="550.0" layoutY="361.0" mnemonicParsing="false" text="Sair" />
+      <Label layoutX="280.0" layoutY="190.0" text="Gerenciador de Vendas" textFill="#136af5">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="btlistvenda" layoutX="502.0" layoutY="109.0" mnemonicParsing="false" text="Listar Vendas" />
+   </children>
+</AnchorPane>
